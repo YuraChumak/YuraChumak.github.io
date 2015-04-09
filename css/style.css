@@ -1,0 +1,466 @@
+/* General style */
+body {
+    font: 16px/24px 'Titillium Web', sans-serif;
+    color: #fff;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: #fff;
+    font-size: 26px;
+    line-height: 30px;
+    margin: 0 auto 55px;
+    text-align: center;
+    width: 50%;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+section{
+    padding-bottom: 120px;
+}
+.container {
+    margin: auto;
+    max-width: 1100px;
+    padding: 0 10px;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+}
+
+.btn {
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    clear: both;
+    cursor: pointer;
+    display: block;
+    font:14px/20px 'Titillium Web', sans-serif;
+    margin: auto;
+    padding: 23px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 290px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* Header style */
+header {
+    padding-top: 55px;
+}
+
+/* Logo style */
+.logo {
+    margin-left: 40px;
+}
+
+/* Navigation style */
+header nav {
+    float: right;
+    margin-right: 60px;
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    border-radius: 3px;
+    color: #fff;
+    display: block;
+    padding: 4px 17px;
+    text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+    background-color: #643a79;
+}
+
+/* Welcome section style */
+.welcome {
+    background-color: #87509c;
+    padding-bottom: 145px;
+}
+
+.welcome header {
+    margin-bottom: 140px;
+}
+
+.orange_btn {
+    background-color: #eb7d4b;
+    box-shadow: 0 4px #c86a40;
+}
+
+/* ****************************
+    Section:Services
+	****************************/
+.services  header p {
+    padding: 0 24%;
+}
+
+.services .column p {
+    padding: 0 15%;
+}
+
+.title {
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 8px;
+    line-height: 40px;
+    margin: 0 auto 22px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title:after {
+    background-color: rgba(0, 0, 0, 0.15);
+    bottom: -15px;
+    content: "";
+    left: 50%;
+    margin-left: -44px;
+    padding: 0;
+    position: absolute;
+    height: 4px;
+    width: 88px;
+}
+
+.blue .title {
+    color: #3c4761;
+}
+
+.blue p {
+    color: #3c4761;
+}
+
+.blue h2 {
+    color: #3c4761;
+}
+
+.dark .title {
+    color: #393939;
+}
+
+.dark p {
+    color: #393939;
+}
+
+.col_title {
+    color: #fff;
+    diplay: block;
+    font-size: 24px;
+    line-height: 26px;
+    margin: 26px 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.services {
+    background-color: #17c2a4;
+}
+
+.services .column {
+    margin-top: 15px;
+    padding-top: 170px;
+}
+
+.column {
+    float: left;
+    text-align: center;
+    width: 25%;
+}
+
+.flag {
+    background: url("../img/flag_icon.png") no-repeat center top;
+
+}
+
+.pencil {
+    background: url("../img/pencil_icon.png") no-repeat center top;
+}
+
+.gear {
+    background: url("../img/gear_icon.png") no-repeat center top;
+}
+
+.rocket {
+    background: url("../img/rocket_icon.png") no-repeat center top;
+}
+
+header p {
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    line-height: 26px;
+    margin: 50px auto 80px;
+    text-align: center;
+}
+
+/* *****************************
+    Section: TEAM 
+	****************************/
+.team {
+    background-color: #e7f1f8;
+}
+
+.team .column p {
+    padding: 0 14%;
+}
+
+.team .column h2 {
+    margin-bottom: 20px;
+}
+
+.circle {
+    background: url("../img/circle.png") no-repeat center top;
+    padding-top: 200px;
+    margin: 0;
+}
+
+.post {
+    color: #64c6ea;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 0;
+}
+
+.soc_list {
+    margin-top: 30px;
+    padding-left: 0;
+}
+
+.soc_list li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.soc_list li a {
+    background: #bdd1df url("../img/soc_icons_sprite.png") no-repeat 12px 6px;
+    border-radius: 50%;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    padding-top: 32px;
+    width: 32px;
+}
+
+.soc_list .twitter a {
+    background-position: -32px 6px;
+}
+
+.soc_list .linkedin a {
+    background-position: -75px 6px;
+}
+
+.soc_list .mail a {
+    background-position: -119px 6px;
+}
+
+/* ***************************************************************************
+            Section: skills
+			*************************************************/
+.skills {
+    background-color: #fff;
+}
+
+.inside {
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 50px;
+    margin: -150px 0 60px 15px;
+    padding: 40px 0;
+}
+
+.inside span {
+    font-size: 32px;
+    line-height: 32px;
+}
+
+/* ***************************************************************************
+            Section: Portfolio
+			*************************************************/
+.portfolio {
+    background-color: #ffdd99;
+}
+
+.portfolio .list a:hover {
+    background-color: #fff;
+}
+
+.portfolio .list a:visited {
+    color: #393939;
+}
+
+.portfolio header p {
+    margin: 50px 0 0;
+    padding: 0 25%;
+}
+
+.nav_port {
+    text-align: center;
+    padding: 45px 0 75px;
+}
+
+.nav_port li {
+    display: inline;
+}
+
+.nav_port li a {
+    background: #ebc985;
+    border-radius: 4px;
+    color: #393939;
+    font-size: 18px;
+    line-height: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+    padding: 9px 25px;
+}
+
+.scr_desc {
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 30px 0 60px;
+}
+.portfolio img {
+    margin: 5px;
+}
+
+.green_btn {
+    background-color: #17c2a4;
+    box-shadow: 0 4px #14a58c;
+    margin-top: 20px;
+}
+
+/*Testimonial*/
+.test {
+    background-color: #d74680;
+    padding-bottom: 10px;
+}
+
+.column2 {
+    float: left;
+    padding: 0 1%;
+    width: 48%;
+}
+
+.testimonial_wrap {
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+.testimonial_wrap .ava {
+    background-color: #787878;
+    border-radius: 50%;
+    height: 100px;
+    float: left;
+    margin-right: 50px;
+    width: 100px;
+}
+
+.testimonial_wrap .testimonial {
+    float: left;
+    width: 65%;
+}
+
+
+
+.author {
+    font-size: 24px;
+    line-height: 26px;
+    padding-top: 35px;
+    text-transform: uppercase;
+}
+
+.profession {
+    font-size: 18px;
+    line-height: 26px;
+    color: #ffdd99;
+}
+
+.desc {
+    font-size: 21px;
+    line-height: 31px;
+}
+
+/*In touch section*/
+.in_touch {
+    background-color: #3c5499;
+}
+
+.forms {
+    margin: auto;
+    max-width: 860px;
+}
+
+.field {
+    background-color: #273a71;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    font: 18px/18px 'Titillium Web', sans-serif;
+    float: left;
+    height: 25px;
+    margin-right: 4%;
+    padding: 20px 2%;
+    width: 44%;
+}
+.field.last {
+    margin-right: 0;
+}
+
+.big {
+    margin: 25px 0 88px;
+    height: 140px;
+    width: 96%;
+}
+
+.blue_btn {
+    background-color: #30bae7;
+    border-style: none;
+    box-shadow: 0 4px #299ec5;
+    margin: 0 auto;
+}
+
+
+/* Footer style */
+footer {
+    background-color: #344b8e;
+    padding: 40px 0;
+}
+
+/* Footer navigation style */
+footer nav ul {
+    text-align: center;
+}
+
+footer nav ul li {
+    display: inline;
+}
+
+footer nav ul li  a {
+    color: #fff;
+    font-size: 24px;
+    line-height: 30px;
+    padding: 0 28px;
+}
+
+footer nav ul li  a:hover {
+    color: #30bae7;
+}
